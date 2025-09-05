@@ -66,7 +66,7 @@
     <v:String x:Key="GameTab_Title">MINECRAFT : VERSION BEDROCK</v:String>
     <v:String x:Key="GameTab_PlayButton_Text">Jouer</v:String>
     <v:String x:Key="GameTab_PlayButton_Kill_Text">Fin de tâche</v:String>
-    <v:String x:Key="GameTab_CreatorToolsButton_Text">Creator Tools</v:String>
+    <v:String x:Key="GameTab_CreatorToolsButton_Text">Outils de créateur</v:String>
     <v:String x:Key="GameTab_InstallationsButton_Text">Configurations</v:String>
     <v:String x:Key="GameTab_PatchNotesButton_Text">Notes de mise à jour</v:String>
 
@@ -460,11 +460,11 @@ du Minecraft Bedrock Launcher</v:String>
     <v:String x:Key="ThemeEntries_Original">Originale</v:String>
     <v:String x:Key="ThemeEntries_Custom">Personnalisé</v:String>
 
-    <v:String x:Key="ThemeEntries_ChaseTheSkies">Chase the Skies</v:String>
-    <v:String x:Key="ThemeEntries_SpringToLife">Spring to Life</v:String>
-    <v:String x:Key="ThemeEntries_TheGardenAwakens">The Garden Awakens</v:String>
-    <v:String x:Key="ThemeEntries_TrickyTrials">Tricky Trials</v:String>
-    <v:String x:Key="ThemeEntries_TrailsAndTales">Trails &amp; Tales</v:String>
+    <v:String x:Key="ThemeEntries_ChaseTheSkies">Chassez les cieux</v:String>
+    <v:String x:Key="ThemeEntries_SpringToLife">Renouveau du printemps</v:String>
+    <v:String x:Key="ThemeEntries_TheGardenAwakens">L'éveil du jardin</v:String>
+    <v:String x:Key="ThemeEntries_TrickyTrials">Épreuves éprouvantes</v:String>
+    <v:String x:Key="ThemeEntries_TrailsAndTales">Sentiers &amp; Récits</v:String>
     <v:String x:Key="ThemeEntries_TheWildUpdate">La mise à jour The Wild</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart1Update">Cavernes et falaises (partie 1)</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart2Update">Caves &amp; Cliffs (Partie 2)</v:String>
@@ -482,8 +482,8 @@ du Minecraft Bedrock Launcher</v:String>
     <v:String x:Key="ThemeEntries_BedrockAndJavaTogetherTechnoblade">Bedrock &amp; Java (Technoblade)</v:String>
     <v:String x:Key="ThemeEntries_BedrockAndJavaTogether">Bedrock &amp; Java</v:String>
 
-    <v:String x:Key="ThemeEntries_JavaAndBedrockEditionStandard">Java &amp; Bedrock Edition Standard</v:String>
-    <v:String x:Key="ThemeEntries_JavaAndBedrockEditionDeluxe">Java &amp; Bedrock Edition Deluxe</v:String>
+    <v:String x:Key="ThemeEntries_JavaAndBedrockEditionStandard">Édition standard Java &amp; Bedrock</v:String>
+    <v:String x:Key="ThemeEntries_JavaAndBedrockEditionDeluxe">Édition deluxe Java &amp; Bedrock</v:String>
     <v:String x:Key="ThemeEntries_BedrockStandard">Version Bedrock Standard</v:String>
     <v:String x:Key="ThemeEntries_BedrockMaster">Version Bedrock Master</v:String>
     
