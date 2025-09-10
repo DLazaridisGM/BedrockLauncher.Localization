@@ -225,7 +225,7 @@
     <v:String x:Key="AboutPage_OriginallyDevelopedBy_Text">DICABANG DARIPADA KERJA OLEH</v:String>
     <v:String x:Key="AboutPage_SpecialThanks_Text">TERIMA KASIH KEPADA</v:String>
 
-    <v:String x:Key="AboutPage_McMrArm_Text">Untuk membuat pemuat turun versi Minecraft Windows 10 (dimana kerja ini berasal)</v:String>
+    <v:String x:Key="AboutPage_McMrArm_Text">Kerana membuat pemuat turun versi Minecraft Windows 10 (iaitu asal usul kerja ini)</v:String>
     <v:String x:Key="AboutPage_Mojang_Text">Untuk Minecraft!!!</v:String>
     <v:String x:Key="AboutPage_CurrentBuild">Binaan Terkini: </v:String>
 
@@ -254,9 +254,9 @@
     <v:String x:Key="FirstLaunch_OneThingTitle">Satu perkara lagi...</v:String>
     <v:String x:Key="FirstLaunch_OneThingSubtitle">Hanya periksa ini untuk memastikan ianya mengikut keinginan anda.</v:String>
     <v:String x:Key="FirstLaunch_ChooseAccountTitle">Pilih sebuah Akaun Insider</v:String>
-    <v:String x:Key="FirstLaunch_ChooseAccountSubtitle">* Ini akan digunakan untuk mengesahkan dan memuat turun beta. Anda mesti menyertai beta didalam Xbox Insider Hub untuk akaun yang dipilih untuk memuat turun beta. Anda juga mungkin perlu memulakan semula pelancar atau menyahpasang Minecraft agar muat turun beta berfungsi.</v:String>
+    <v:String x:Key="FirstLaunch_ChooseAccountSubtitle">* Ini akan digunakan untuk mengesahkan dan memuat turun beta. Anda mesti menyertai beta di dalam Xbox Insider Hub untuk akaun yang dipilih untuk memuat turun beta. Anda juga mungkin perlu memulakan semula pelancar atau menyahpasang Minecraft agar muat turun beta berfungsi.</v:String>
 
-    <v:String x:Key="FirstLaunch_BeforeStartingToUse" xml:space="preserve">Sebelum menggunakan, sangat disarankan agar anda menekan sandaran untuk membuat pemasangan data simpan yang ada kerana pelancar akan menggantikan direktori asal dengan pautan simbolik yang membolehkan kami mengarahkan semula penyimpanan data.
+    <v:String x:Key="FirstLaunch_BeforeStartingToUse" xml:space="preserve">Sebelum menggunakan, sangat disarankan agar anda menekan sandaran untuk membuat pemasangan data simpan yang sedia ada kerana pelancar akan menggantikan direktori asal dengan pautan simbolik yang membolehkan kami mengarahkan semula penyimpanan data.
 
  (Jangan bimbang, anda tidak akan kehilangan data dengan melakukan ini, anda hanya akan kehilangan data jika anda menekan main dan tidak menyandarkan pemasangan anda)</v:String>
 
@@ -336,7 +336,7 @@
     <v:String x:Key="Dialog_Item_Optional_DeleteInstallationData">Hapus data pengguna</v:String>
 
     <v:String x:Key="Dialog_DeleteItem_Title">Padam {0} secara kekal</v:String>
-    <v:String x:Key="Dialog_DeleteItem_Text" xml:space="preserve">Adakah anda pasti untuk memadam &quot;{1}&quot;?
+    <v:String x:Key="Dialog_DeleteItem_Text" xml:space="preserve">Adakah anda pasti untuk memadamkan &quot;{1}&quot;?
 {0} ini akan hilang selamanya! (Masa yang lama!)</v:String>
 
     <v:String x:Key="Dialog_KillGame_Title">Matikan Permainan</v:String>
@@ -368,7 +368,7 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <!--#region Internal -->
 
     <v:String x:Key="GameManager_RecoveringDataIssue_FileNotExistant_Text">Fail {0} sudah wujud di dalam destinasi itu.\nAdakah anda mahu menggantikannya? Fail lama akan hilang sebaliknya.</v:String>
-    <v:String x:Key="GameManager_RecoveringDataIssue_NotaDirectory_Text">Fail {0} bukan sebuah direktori. Adakah anda mahu menghapusnya? Data daripada direktori lama akan hilang sebaliknya.</v:String>
+    <v:String x:Key="GameManager_RecoveringDataIssue_NotaDirectory_Text">Fail {0} bukan sebuah direktori. Adakah anda mahu menghapuskannya? Data daripada direktori lama akan hilang sebaliknya.</v:String>
 
     <v:String x:Key="GameManager_RecoveringDataIssue_Title">Menukar Data Simpan yang Ada ke Pemasangan</v:String>
 
@@ -406,7 +406,7 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <v:String x:Key="Installer_InstallType_InstallLocation_ReleaseRadioButton_Text">Versi Keluaran</v:String>
 
     <v:String x:Key="Installer_InstallLocation_Title">Pilih Lokasi Pemasangan</v:String>
-    <v:String x:Key="Installer_InstallLocation_Info_Text">Pemasang ini akan memasang Pelancar Minecraft Bedrock kedalam folder berikut, untuk memasangnya didalam folder yang lain,</v:String>
+    <v:String x:Key="Installer_InstallLocation_Info_Text">Pemasang ini akan memasang Pelancar Minecraft Bedrock ke dalam folder berikut, untuk memasangnya di dalam folder yang lain,</v:String>
     <v:String x:Key="Installer_InstallLocation_Info2_Text">klik Cari dan pilih folder yang lain.</v:String>
 
     <v:String x:Key="Installer_InstallLocation_DestinationFolder_Header">Folder Destinasi</v:String>
