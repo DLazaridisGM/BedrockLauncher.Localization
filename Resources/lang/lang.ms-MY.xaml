@@ -66,7 +66,7 @@
     <v:String x:Key="GameTab_Title">MINECRAFT: EDISI BEDROCK</v:String>
     <v:String x:Key="GameTab_PlayButton_Text">Main</v:String>
     <v:String x:Key="GameTab_PlayButton_Kill_Text">Matikan</v:String>
-    <v:String x:Key="GameTab_CreatorToolsButton_Text">Creator Tools</v:String>
+    <v:String x:Key="GameTab_CreatorToolsButton_Text">Alatan Pencipta</v:String>
     <v:String x:Key="GameTab_InstallationsButton_Text">Pemasangan</v:String>
     <v:String x:Key="GameTab_PatchNotesButton_Text">Nota Tampalan</v:String>
 
@@ -74,9 +74,9 @@
     
     <!--#region CreatorToolsPage -->
 
-    <v:String x:Key="CreatorToolsPage_Editor">Bedrock Editor</v:String>
-    <v:String x:Key="CreatorToolsPage_Slogan">Create stunning worlds at scale</v:String>
-    <v:String x:Key="CreatorToolsPage_PlayEditorButton">Launch Editor</v:String>
+    <v:String x:Key="CreatorToolsPage_Editor">Editor Bedrock</v:String>
+    <v:String x:Key="CreatorToolsPage_Slogan">Cipta dunia yang menakjubkan pada skala besar</v:String>
+    <v:String x:Key="CreatorToolsPage_PlayEditorButton">Lancar Editor</v:String>
 
     <!--#endregion-->
 
@@ -180,7 +180,7 @@
 
     <v:String x:Key="GeneralSettingsScreen_LauncherSettingsSubtitle">TETAPAN PELANCAR</v:String>
     <v:String x:Key="GeneralSettingsScreen_ShortcutSettingsSubtitle">TETAPAN JALAN PINTAS</v:String>
-    <v:String x:Key="GeneralSettingsScreen_KeepAppx">Keep Appx Package</v:String>
+    <v:String x:Key="GeneralSettingsScreen_KeepAppx">Kekalkan Pakej Appx</v:String>
     <v:String x:Key="GeneralSettingsScreen_KeepLauncherOpen">Kekalkan Pelancar terbuka saat permainan dijalankan</v:String>
     <v:String x:Key="GeneralSettingsScreen_AnimateTransitions">Animasikan peralihan diantara halaman di dalam Pelancar</v:String>
     <v:String x:Key="GeneralSettingsScreen_AnimatePlayButton">Animasikan butang main di halaman Main di dalam Pelancar</v:String>
@@ -482,8 +482,8 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <v:String x:Key="ThemeEntries_BedrockAndJavaTogetherTechnoblade">Bedrock &amp; Java (Technoblade)</v:String>
     <v:String x:Key="ThemeEntries_BedrockAndJavaTogether">Bedrock &amp; Java</v:String>
 
-    <v:String x:Key="ThemeEntries_JavaAndBedrockEditionStandard">Java &amp; Bedrock Edition Standard</v:String>
-    <v:String x:Key="ThemeEntries_JavaAndBedrockEditionDeluxe">Java &amp; Bedrock Edition Deluxe</v:String>
+    <v:String x:Key="ThemeEntries_JavaAndBedrockEditionStandard">Edisi Java &amp; Bedrock Standard</v:String>
+    <v:String x:Key="ThemeEntries_JavaAndBedrockEditionDeluxe">Edisi Java &amp; Bedrock Deluxe</v:String>
     <v:String x:Key="ThemeEntries_BedrockStandard">Bedrock Edition Standard</v:String>
     <v:String x:Key="ThemeEntries_BedrockMaster">Bedrock Edition Master</v:String>
     
