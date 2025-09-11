@@ -36,14 +36,14 @@
 
     <!--#region ProgressBar -->
 
-    <v:String x:Key="ProgressBar_Downloading">Memuat Turun</v:String>
-    <v:String x:Key="ProgressBar_Installing">Memasang</v:String>
-    <v:String x:Key="ProgressBar_Launching">Melancar</v:String>
-    <v:String x:Key="ProgressBar_Extracting">Mengekstrak</v:String>
-    <v:String x:Key="ProgressBar_Uninstalling">Menyahpasang</v:String>
+    <v:String x:Key="ProgressBar_Downloading">Sedang Memuat Turun</v:String>
+    <v:String x:Key="ProgressBar_Installing">Sedang Memasang</v:String>
+    <v:String x:Key="ProgressBar_Launching">Sedang melancar</v:String>
+    <v:String x:Key="ProgressBar_Extracting">Sedang Mengekstrak</v:String>
+    <v:String x:Key="ProgressBar_Uninstalling">Sedang menyahpasang</v:String>
     <v:String x:Key="ProgressBar_RegisteringPackage">Mendaftarkan Pakej</v:String>
     <v:String x:Key="ProgressBar_RemovingPackage">Menyahdaftarkan Pakej</v:String>
-    <v:String x:Key="ProgressBar_BackingUp">Menyandarkan Simpanan Data</v:String>
+    <v:String x:Key="ProgressBar_BackingUp">Sedang menyandarkan Data Simpanan</v:String>
 
     <!--#endregion-->
 
@@ -102,9 +102,9 @@
     <v:String x:Key="EditInstallationScreen_CreateButton">Cipta</v:String>
     <v:String x:Key="EditInstallationScreen_AltCreateButton">Simpan</v:String>
 
-    <v:String x:Key="EditInstallationScreen_LatestPreview">Pratonton terkini</v:String>
+    <v:String x:Key="EditInstallationScreen_LatestPreview">Pralihat terkini</v:String>
     <v:String x:Key="EditInstallationScreen_LatestBeta">Beta terkini</v:String>
-    <v:String x:Key="EditInstallationScreen_LatestRelease">Keluaran terkini</v:String>
+    <v:String x:Key="EditInstallationScreen_LatestRelease">Terbitan terkini</v:String>
 
     <v:String x:Key="EditInstallationScreen_NameSubtitle">NAMA</v:String>
     <v:String x:Key="EditInstallationScreen_VersionSubtitle">VERSI</v:String>
@@ -179,11 +179,11 @@
 
 
     <v:String x:Key="GeneralSettingsScreen_LauncherSettingsSubtitle">TETAPAN PELANCAR</v:String>
-    <v:String x:Key="GeneralSettingsScreen_ShortcutSettingsSubtitle">TETAPAN JALAN PINTAS</v:String>
+    <v:String x:Key="GeneralSettingsScreen_ShortcutSettingsSubtitle">TETAPAN PINTASAN</v:String>
     <v:String x:Key="GeneralSettingsScreen_KeepAppx">Kekalkan Pakej Appx</v:String>
     <v:String x:Key="GeneralSettingsScreen_KeepLauncherOpen">Kekalkan Pelancar terbuka saat permainan dijalankan</v:String>
-    <v:String x:Key="GeneralSettingsScreen_AnimateTransitions">Animasikan peralihan diantara halaman di dalam Pelancar</v:String>
-    <v:String x:Key="GeneralSettingsScreen_AnimatePlayButton">Animasikan butang main di halaman Main di dalam Pelancar</v:String>
+    <v:String x:Key="GeneralSettingsScreen_AnimateTransitions">Animasikan peralihan antara halaman di dalam Pelancar</v:String>
+    <v:String x:Key="GeneralSettingsScreen_AnimatePlayButton">Animasikan butang main pada halaman Main di dalam Pelancar</v:String>
     <v:String x:Key="GeneralSettingsScreen_FetchVersionsFromMicrosoftStore">Benarkan semakan tambahan untuk versi baharu terus dari Gedung Microsoft</v:String>
     
 
@@ -195,8 +195,8 @@
     <v:String x:Key="GeneralSettingsScreen_SupportCreatorButton">Sokong Pencipta</v:String>
 
     <v:String x:Key="GeneralSettingsScreen_BackupsSubtitle">TETAPAN SANDARAN</v:String>
-    <v:String x:Key="GeneralSettingsScreen_BackupButton">Sandarkan Simpanan Data</v:String>
-    <v:String x:Key="GeneralSettingsScreen_BackupPreviewButton">Sandarkan Simpanan Data (Pratonton)</v:String>
+    <v:String x:Key="GeneralSettingsScreen_BackupButton">Sandarkan Data Simpanan</v:String>
+    <v:String x:Key="GeneralSettingsScreen_BackupPreviewButton">Sandarkan Simpanan Data (Pralihat)</v:String>
     <!--#endregion-->
     
     <!-- #region VersionsPage -->
@@ -226,8 +226,8 @@
     <v:String x:Key="AboutPage_SpecialThanks_Text">TERIMA KASIH KEPADA</v:String>
 
     <v:String x:Key="AboutPage_McMrArm_Text">Kerana membuat pemuat turun versi Minecraft Windows 10 (iaitu asal usul kerja ini)</v:String>
-    <v:String x:Key="AboutPage_Mojang_Text">Untuk Minecraft!!!</v:String>
-    <v:String x:Key="AboutPage_CurrentBuild">Binaan Terkini: </v:String>
+    <v:String x:Key="AboutPage_Mojang_Text">Iaitu Pencipta Minecraft!!!</v:String>
+    <v:String x:Key="AboutPage_CurrentBuild">Binaan Semasa: </v:String>
 
     <!--#endregion-->
 
@@ -306,7 +306,7 @@
     <v:String x:Key="Error_SaveDirectoryRedirectionFailed_Title">Pengubah-halaan simpanan gagal</v:String>
     <v:String x:Key="Error_SaveDirectoryRedirectionFailed">Sila cuba lagi :(</v:String>
 
-    <v:String x:Key="Error_AppUninstallFailed_Title">Nyahpasang gagal</v:String>
+    <v:String x:Key="Error_AppUninstallFailed_Title">Penyahpasangan gagal</v:String>
     <v:String x:Key="Error_AppUninstallFailed">Sila cuba lagi :(</v:String>
 
     <v:String x:Key="Error_AppExtractionFailed_Title">Pengekstrakan gagal</v:String>
@@ -333,7 +333,7 @@
     <v:String x:Key="Dialog_Item_Version_Text">versi</v:String>
     <v:String x:Key="Dialog_Item_Profile_Text">profil</v:String>
 
-    <v:String x:Key="Dialog_Item_Optional_DeleteInstallationData">Hapus data pengguna</v:String>
+    <v:String x:Key="Dialog_Item_Optional_DeleteInstallationData">Padam data pengguna</v:String>
 
     <v:String x:Key="Dialog_DeleteItem_Title">Padam {0} secara kekal</v:String>
     <v:String x:Key="Dialog_DeleteItem_Text" xml:space="preserve">Adakah anda pasti untuk memadamkan &quot;{1}&quot;?
@@ -354,7 +354,7 @@
     <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsText" xml:space="preserve">Kami tidak menemui apa-apa kandungan berita yang sesuai dengan carian anda. Sekiranya penapis kategori anda 
 dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
 
-    <v:String x:Key="Dialog_ResultPanel_Loading_Title">Memuat...</v:String>
+    <v:String x:Key="Dialog_ResultPanel_Loading_Title">Sedang memuat...</v:String>
     <v:String x:Key="Dialog_ResultPanel_Loading_Text" xml:space="preserve">Sila tunggu!</v:String>
 
     <v:String x:Key="Dialog_ResultPanel_Error_Title">Ralat</v:String>
@@ -370,7 +370,7 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <v:String x:Key="GameManager_RecoveringDataIssue_FileNotExistant_Text">Fail {0} sudah wujud di dalam destinasi itu.\nAdakah anda mahu menggantikannya? Fail lama akan hilang sebaliknya.</v:String>
     <v:String x:Key="GameManager_RecoveringDataIssue_NotaDirectory_Text">Fail {0} bukan sebuah direktori. Adakah anda mahu menghapuskannya? Data daripada direktori lama akan hilang sebaliknya.</v:String>
 
-    <v:String x:Key="GameManager_RecoveringDataIssue_Title">Menukar Data Simpan yang Ada ke Pemasangan</v:String>
+    <v:String x:Key="GameManager_RecoveringDataIssue_Title">Menukar Data Simpan yang Sedia Ada kepada Pemasangan</v:String>
 
     <!--#endregion-->
 
@@ -389,7 +389,7 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <v:String x:Key="Installer_Finish_Text">Selesai</v:String>
 
     <v:String x:Key="Installer_WelcomePage_Title">Selamat Datang ke Pemasang Perisian Pelancar Minecraft Bedrock</v:String>
-    <v:String x:Key="Installer_WelcomePage_Info_Text">Ini akan memasang Pelancar Minecraft Bedrock ke komputer anda.</v:String>
+    <v:String x:Key="Installer_WelcomePage_Info_Text">Ini akan memasang Pelancar Minecraft Bedrock ke dalam komputer anda.</v:String>
     <v:String x:Key="Installer_WelcomePage_Info2_Text">Anda disarankan untuk menutup semua aplikasi lain sebelum meneruskan.</v:String>
     <v:String x:Key="Installer_WelcomePage_Info3_Text">Klik Seterusnya untuk teruskan, atau Batal untuk keluar dari Pemasang Perisian.</v:String>
 
@@ -403,7 +403,7 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <v:String x:Key="Installer_InstallType_Info_Text">Pilih versi pelancar yang anda mahu muat turun</v:String>
 
     <v:String x:Key="Installer_InstallType_InstallLocation_BetaRadioButton_Text">Versi Beta</v:String>
-    <v:String x:Key="Installer_InstallType_InstallLocation_ReleaseRadioButton_Text">Versi Keluaran</v:String>
+    <v:String x:Key="Installer_InstallType_InstallLocation_ReleaseRadioButton_Text">Versi Terbitan</v:String>
 
     <v:String x:Key="Installer_InstallLocation_Title">Pilih Lokasi Pemasangan</v:String>
     <v:String x:Key="Installer_InstallLocation_Info_Text">Pemasang ini akan memasang Pelancar Minecraft Bedrock ke dalam folder berikut, untuk memasangnya di dalam folder yang lain,</v:String>
@@ -418,9 +418,9 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
 
     <v:String x:Key="Installer_InstallationProgress_LaunchOnExit_Text">Mulakan Program setelah Keluar</v:String>
 
-    <v:String x:Key="Installer_InstallationProgress_FilesInUse">Beberapa fail sedang digunakan oleh yang berikut:</v:String>
+    <v:String x:Key="Installer_InstallationProgress_FilesInUse">Beberapa fail sedang digunakan oleh proses yang berikut:</v:String>
 
-    <v:String x:Key="Installer_InstallationProgress_Title">Memasang</v:String>
+    <v:String x:Key="Installer_InstallationProgress_Title">Sedang Memasang</v:String>
     <v:String x:Key="Installer_InstallationProgress_Info_Text">Sila tunggu sementara Pemasang Perisian memasang Pelancar Minecraft Bedrock pada komputer anda.</v:String>
 
 
@@ -434,9 +434,9 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
 
     <!--#region ProgressBar -->
 
-    <v:String x:Key="Installer_ProgressBar_Downloading">Memuat Turun...</v:String>
-    <v:String x:Key="Installer_ProgressBar_Finalizing">Menyelesaikan...</v:String>
-    <v:String x:Key="Installer_ProgressBar_Initalizing">Memulakan...</v:String>
+    <v:String x:Key="Installer_ProgressBar_Downloading">Sedang memuat turun...</v:String>
+    <v:String x:Key="Installer_ProgressBar_Finalizing">Sedang menyelesaikan...</v:String>
+    <v:String x:Key="Installer_ProgressBar_Initalizing">Sedang memulakan...</v:String>
 
 
     <!--#endregion-->
@@ -447,9 +447,9 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
 
     <!--#region VersionEntries -->
 
-    <v:String x:Key="VersionEntries_LatestPreview">Pratonton Terkini</v:String>
+    <v:String x:Key="VersionEntries_LatestPreview">Pralihat Terkini</v:String>
     <v:String x:Key="VersionEntries_LatestBeta">Beta Terkini</v:String>
-    <v:String x:Key="VersionEntries_LatestRelease">Keluaran Terkini</v:String>
+    <v:String x:Key="VersionEntries_LatestRelease">Terbitan Terkini</v:String>
     <v:String x:Key="VersionEntries_UnnamedInstallation">&lt;pemasangan tanpa nama&gt;</v:String>
 
     <!--#endregion-->
@@ -477,14 +477,14 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <v:String x:Key="ThemeEntries_ExplorationUpdate">Exploration Update [Java]</v:String>
     <v:String x:Key="ThemeEntries_CombatUpdate">Combat Update [Java]</v:String>
     <v:String x:Key="ThemeEntries_CatsAndPandasUpdate">Cats &amp; Pandas [Bedrock]</v:String>
-    <v:String x:Key="ThemeEntries_PocketEditionRelease">Keluaran Rasmi [Bedrock]</v:String>
+    <v:String x:Key="ThemeEntries_PocketEditionRelease">Terbitan Rasmi [Bedrock]</v:String>
 
     <v:String x:Key="ThemeEntries_BedrockAndJavaTogetherTechnoblade">Bedrock &amp; Java (Technoblade)</v:String>
     <v:String x:Key="ThemeEntries_BedrockAndJavaTogether">Bedrock &amp; Java</v:String>
 
     <v:String x:Key="ThemeEntries_JavaAndBedrockEditionStandard">Edisi Java &amp; Bedrock Standard</v:String>
     <v:String x:Key="ThemeEntries_JavaAndBedrockEditionDeluxe">Edisi Java &amp; Bedrock Deluxe</v:String>
-    <v:String x:Key="ThemeEntries_BedrockStandard">Bedrock Edition Standard</v:String>
+    <v:String x:Key="ThemeEntries_BedrockStandard">Edisi Bedrock Standard</v:String>
     <v:String x:Key="ThemeEntries_BedrockMaster">Bedrock Edition Master</v:String>
     
     <v:String x:Key="ThemeEntries_EarlyLegacyConsole">Era Asal Legacy Console</v:String>
@@ -500,7 +500,7 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
 
     <v:String x:Key="GeneralText_Delete">Padam</v:String>
     <v:String x:Key="GeneralText_Edit">Sunting</v:String>
-    <v:String x:Key="GeneralText_Duplicate">Buat Salinan</v:String>
+    <v:String x:Key="GeneralText_Duplicate">Cipta Salinan</v:String>
     <v:String x:Key="GeneralText_Remove">Hapus</v:String>
     <v:String x:Key="GeneralText_Cancel">Batal</v:String>
     <v:String x:Key="GeneralText_Select">Pilih</v:String>
@@ -508,16 +508,16 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <v:String x:Key="GeneralText_Install">Pasang</v:String>
     <v:String x:Key="GeneralText_Add">Tambah</v:String>
     <v:String x:Key="GeneralText_Save">Simpan</v:String>
-    <v:String x:Key="GeneralText_Refresh">Muat Semula</v:String>
+    <v:String x:Key="GeneralText_Refresh">Segar Semula</v:String>
     <v:String x:Key="GeneralText_Backup">Sandarkan</v:String>
     <v:String x:Key="GeneralText_Versions">Versi</v:String>
     <v:String x:Key="GeneralText_Browse">Cari</v:String>
     <v:String x:Key="GeneralText_Reset">Tetapkan semula</v:String>
     <v:String x:Key="GeneralText_Yes">Ya</v:String>
     <v:String x:Key="GeneralText_No">Tidak</v:String>
-    <v:String x:Key="GeneralText_Releases">Keluaran</v:String>
+    <v:String x:Key="GeneralText_Releases">Terbitan</v:String>
     <v:String x:Key="GeneralText_Betas">Beta</v:String>
-    <v:String x:Key="GeneralText_Previews">Pratonton</v:String>
+    <v:String x:Key="GeneralText_Previews">Pralihat</v:String>
     <v:String x:Key="GeneralText_Imported">Diimport</v:String>
     <v:String x:Key="GeneralText_Export">Eksport</v:String>
     <v:String x:Key="GeneralText_Repair">Baiki</v:String>
