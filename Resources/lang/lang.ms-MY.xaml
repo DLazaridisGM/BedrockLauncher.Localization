@@ -196,7 +196,7 @@
 
     <v:String x:Key="GeneralSettingsScreen_BackupsSubtitle">TETAPAN SANDARAN</v:String>
     <v:String x:Key="GeneralSettingsScreen_BackupButton">Sandarkan Data Simpanan</v:String>
-    <v:String x:Key="GeneralSettingsScreen_BackupPreviewButton">Sandarkan Simpanan Data (Pralihat)</v:String>
+    <v:String x:Key="GeneralSettingsScreen_BackupPreviewButton">Sandarkan Data Simpanan (Pralihat)</v:String>
     <!--#endregion-->
     
     <!-- #region VersionsPage -->
@@ -256,14 +256,14 @@
     <v:String x:Key="FirstLaunch_ChooseAccountTitle">Pilih sebuah Akaun Insider</v:String>
     <v:String x:Key="FirstLaunch_ChooseAccountSubtitle">* Ini akan digunakan untuk mengesahkan dan memuat turun beta. Anda mesti menyertai beta di dalam Xbox Insider Hub untuk akaun yang dipilih untuk memuat turun beta. Anda juga mungkin perlu memulakan semula pelancar atau menyahpasang Minecraft agar muat turun beta berfungsi.</v:String>
 
-    <v:String x:Key="FirstLaunch_BeforeStartingToUse" xml:space="preserve">Sebelum menggunakan, sangat disarankan agar anda menekan sandaran untuk membuat pemasangan data simpan yang sedia ada kerana pelancar akan menggantikan direktori asal dengan pautan simbolik yang membolehkan kami mengarahkan semula penyimpanan data.
+    <v:String x:Key="FirstLaunch_BeforeStartingToUse" xml:space="preserve">Sebelum menggunakan, sangat disarankan agar anda menekan sandaran untuk membuat pemasangan data simpanan yang sedia ada kerana pelancar akan menggantikan direktori asal dengan pautan simbolik yang membolehkan kami mengarahkan semula penyimpanan data.
 
  (Jangan bimbang, anda tidak akan kehilangan data dengan melakukan ini, anda hanya akan kehilangan data jika anda menekan main dan tidak menyandarkan pemasangan anda)</v:String>
 
     <v:String x:Key="FirstLaunch_InstallType_Header">Simpan/Muat Data Pelancar Dari:</v:String>
     <v:String x:Key="FirstLaunch_FixedInstall_Checkbox">Folder Tetap (Disarankan)</v:String>
     <v:String x:Key="FirstLaunch_PortableInstall_Checkbox">Folder Mudah Alih</v:String>
-    <v:String x:Key="FirstLaunch_BackupCheckBox_Text">Sandarkan Simpanan Data Sedia Ada</v:String>
+    <v:String x:Key="FirstLaunch_BackupCheckBox_Text">Sandarkan Data Simpanan Sedia Ada</v:String>
     <v:String x:Key="FirstLaunch_BackupCheckBox_Subtext">(DISARANKAN)</v:String>
     <v:String x:Key="FirstLaunch_CloseButton">Tutup</v:String>
     <v:String x:Key="FirstLaunch_BackButton">Kembali</v:String>
@@ -370,7 +370,7 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <v:String x:Key="GameManager_RecoveringDataIssue_FileNotExistant_Text">Fail {0} sudah wujud di dalam destinasi itu.\nAdakah anda mahu menggantikannya? Fail lama akan hilang sebaliknya.</v:String>
     <v:String x:Key="GameManager_RecoveringDataIssue_NotaDirectory_Text">Fail {0} bukan sebuah direktori. Adakah anda mahu menghapuskannya? Data daripada direktori lama akan hilang sebaliknya.</v:String>
 
-    <v:String x:Key="GameManager_RecoveringDataIssue_Title">Menukar Data Simpan yang Sedia Ada kepada Pemasangan</v:String>
+    <v:String x:Key="GameManager_RecoveringDataIssue_Title">Sedang Menukar Data Simpanan yang Sedia Ada kepada Pemasangan</v:String>
 
     <!--#endregion-->
 
