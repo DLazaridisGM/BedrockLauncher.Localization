@@ -459,6 +459,7 @@
     <v:String x:Key="ThemeEntries_Original">Original</v:String>
     <v:String x:Key="ThemeEntries_Custom">Custom</v:String>
 
+    <v:String x:Key="ThemeEntries_TheCopperAge">The Copper Age</v:String>
     <v:String x:Key="ThemeEntries_ChaseTheSkies">Chase the Skies</v:String>
     <v:String x:Key="ThemeEntries_SpringToLife">Spring to Life</v:String>
     <v:String x:Key="ThemeEntries_TheGardenAwakens">The Garden Awakens</v:String>
