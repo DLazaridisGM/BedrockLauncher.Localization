@@ -460,6 +460,9 @@ du Minecraft Bedrock Launcher</v:String>
     <v:String x:Key="ThemeEntries_Original">Originale</v:String>
     <v:String x:Key="ThemeEntries_Custom">Personnalisé</v:String>
 
+    <v:String x:Key="ThemeEntries_TinyTakeover">Tiny Takeover</v:String>
+    <v:String x:Key="ThemeEntries_MountsOfMayhem">Mounts of Mayhem</v:String>
+    <v:String x:Key="ThemeEntries_TheCopperAge">The Copper Age</v:String>
     <v:String x:Key="ThemeEntries_ChaseTheSkies">Chassez les cieux</v:String>
     <v:String x:Key="ThemeEntries_SpringToLife">Renouveau du printemps</v:String>
     <v:String x:Key="ThemeEntries_TheGardenAwakens">L'éveil du jardin</v:String>
