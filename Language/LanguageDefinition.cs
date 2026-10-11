@@ -15,7 +15,6 @@ namespace BedrockLauncher.Localization.Language
         public string Path { get; set; }
         public bool IsExternal { get; set; } = false;
         public string Name { get; set; }
-        public bool Installer_IsSelected { get; set; } = false;
 
         public override string ToString()
         {
@@ -25,7 +24,7 @@ namespace BedrockLauncher.Localization.Language
         #endregion
 
         #region Functions
-        public static bool TryPrase(System.IO.FileInfo fileInfo, out LanguageDefinition definition) 
+        public static bool TryParse(System.IO.FileInfo fileInfo, out LanguageDefinition definition) 
         {
             try
             {
@@ -68,7 +67,7 @@ namespace BedrockLauncher.Localization.Language
 
         #endregion
 
-        #region Declerations
+        #region Declarations
 
         public static readonly LanguageDefinition Default = new LanguageDefinition();
         public LanguageDefinition(string _locale, string _path, bool _isExternal)
@@ -81,14 +80,14 @@ namespace BedrockLauncher.Localization.Language
         public LanguageDefinition(string _locale)
         {
             this.Locale = _locale;
-            this.Path = $"/BedrockLauncher.Localization;component/Resources/{Config.LangFolder}/lang.{_locale}.xaml";
+            this.Path = $"/BedrockLauncher.Localization;component/Resources/lang/lang.{_locale}.xaml";
             this.IsExternal = false;
             if (TryGetName(this.Path, this.IsExternal, out string _name)) this.Name = _name;
         }
         public LanguageDefinition()
         {
             this.Locale = "en-US";
-            this.Path = $"/BedrockLauncher.Localization;component/Resources/{Config.LangFolder}/lang.en-US.xaml";
+            this.Path = $"/BedrockLauncher.Localization;component/Resources/lang/lang.en-US.xaml";
             this.IsExternal = false;
             if(TryGetName(this.Path, this.IsExternal, out string _name)) this.Name = _name;
         }

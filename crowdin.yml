@@ -3,5 +3,3 @@ files:
     translation: /Resources/lang/lang.%locale%.xaml
   - source: /Resources/lang/.ext/en-US/*.*
     translation: /Resources/lang/%locale%/%original_file_name%
-  - source: /Resources/lang_installer/lang.en-US.xaml
-    translation: /Resources/lang_installer/lang.%locale%.xaml
