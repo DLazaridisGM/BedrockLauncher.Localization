@@ -9,11 +9,11 @@ namespace BedrockLauncher.Localization.Language
 {
     public partial class LanguageDictionary : ResourceDictionary
     {
-        public string Langauge { get; set; }
+        public string Language { get; set; }
 
         public LanguageDictionary(LanguageDefinition language)
         {         
-            this.Langauge = language.Locale;
+            this.Language = language.Locale;
             this.Source = new Uri(language.Path, (language.IsExternal ? UriKind.Absolute : UriKind.Relative));
         }
 
@@ -21,7 +21,7 @@ namespace BedrockLauncher.Localization.Language
         {
             var language = LanguageDefinition.Default;
 
-            this.Langauge = language.Locale;
+            this.Language = language.Locale;
             this.Source = new Uri(language.Path, (language.IsExternal ? UriKind.Absolute : UriKind.Relative));
         }
     }

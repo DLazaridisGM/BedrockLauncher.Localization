@@ -18,13 +18,13 @@ namespace BedrockLauncher.Localization.Language
     public static class LanguageManager
     {
 
-        private static List<LanguageDefinition> AvaliableInternalLanguages 
+        private static List<LanguageDefinition> AvailableInternalLanguages 
         {
             get
             {
 
                 var languages = new List<LanguageDefinition>();
-                foreach (var lang in AvaliableLanuages.GetAll())
+                foreach (var lang in AvailableLanguages.GetAll())
                 {
                     try
                     {
@@ -46,7 +46,7 @@ namespace BedrockLauncher.Localization.Language
             Application.Current.Resources.MergedDictionaries.Remove(possible);
 
             LanguageDictionary dict = new LanguageDictionary(definition);
-            LanguageDictionary default_dic = new LanguageDictionary(AvaliableInternalLanguages.FirstOrDefault());
+            LanguageDictionary default_dic = new LanguageDictionary(AvailableInternalLanguages.FirstOrDefault());
             Application.Current.Resources.MergedDictionaries.Add(default_dic);
             Application.Current.Resources.MergedDictionaries.Add(dict);
         }
@@ -55,7 +55,7 @@ namespace BedrockLauncher.Localization.Language
         {
             try
             {
-                var currentLang = GetResourceDictonaries().Where(x => x.Locale == Localization.Properties.Settings.Default.Language).FirstOrDefault();
+                var currentLang = GetResourceDictionaries().Where(x => x.Locale == Localization.Properties.Settings.Default.Language).FirstOrDefault();
                 var currentLocale = currentLang.Locale.Replace("-", "_");
 
                 contents = GetResource(name, currentLang);
@@ -120,27 +120,10 @@ namespace BedrockLauncher.Localization.Language
 
         #region Public Methods
 
-        public static string GetAssemblyDirectory()
+        public static List<LanguageDefinition> GetResourceDictionaries()
         {
-            string Assembly = string.Empty;
-
-            int i = 0;
-
-            while (String.IsNullOrEmpty(Assembly) && i < 10)
-            {
-                var ass = System.Reflection.Assembly.GetEntryAssembly();
-                Assembly = ass.Location;
-                i++;
-            }
-
-            return System.IO.Path.GetDirectoryName(Assembly);
-        }
-
-        public static List<LanguageDefinition> GetResourceDictonaries()
-        {
-            string Path = GetAssemblyDirectory();
-            string ExternalPath = System.IO.Path.Combine(Path, "data", "lang");
-            List<LanguageDefinition> Languages = AvaliableInternalLanguages;
+            string ExternalPath = System.IO.Path.Combine(AppContext.BaseDirectory, "data", "lang");
+            List<LanguageDefinition> Languages = AvailableInternalLanguages;
 
 
             if (!Directory.Exists(ExternalPath)) return Languages;
@@ -149,7 +132,7 @@ namespace BedrockLauncher.Localization.Language
             foreach (var File in ExternalLangFolder.GetFiles("*", SearchOption.TopDirectoryOnly))
             {
                 if (File.Extension != ".xaml") continue;
-                if (LanguageDefinition.TryPrase(File, out LanguageDefinition ExternalLang)) Languages.Add(ExternalLang);
+                if (LanguageDefinition.TryParse(File, out LanguageDefinition ExternalLang)) Languages.Add(ExternalLang);
             }
 
             return Languages;
@@ -157,21 +140,21 @@ namespace BedrockLauncher.Localization.Language
 
         public static void SetLanguage(string language)
         {
-            var AvaliableLanguages = GetResourceDictonaries();
+            var AvailableLanguages = GetResourceDictionaries();
 
             if (language == "none" || language == "default")
             {
                 CultureInfo ci = CultureInfo.InstalledUICulture;
-                if (AvaliableLanguages.Exists(x => x.Locale == ci.Name)) SetLocaleLanguage(ci.Name);
-                else SetToDefaultLangauge();
+                if (AvailableLanguages.Exists(x => x.Locale == ci.Name)) SetLocaleLanguage(ci.Name);
+                else SetToDefaultLanguage();
             }
             else
             {
-                if (AvaliableLanguages.Exists(x => x.Locale == language)) SetLocaleLanguage(language);
-                else SetToDefaultLangauge();
+                if (AvailableLanguages.Exists(x => x.Locale == language)) SetLocaleLanguage(language);
+                else SetToDefaultLanguage();
             }
 
-            void SetToDefaultLangauge()
+            void SetToDefaultLanguage()
             {
                 LanguageChange(LanguageDefinition.Default);
                 Localization.Properties.Settings.Default.Language = "default";
@@ -180,7 +163,7 @@ namespace BedrockLauncher.Localization.Language
 
             void SetLocaleLanguage(string locale)
             {
-                var Lang = AvaliableLanguages.Where(x => x.Locale == locale).FirstOrDefault();
+                var Lang = AvailableLanguages.Where(x => x.Locale == locale).FirstOrDefault();
                 LanguageChange(Lang);
                 Localization.Properties.Settings.Default.Language = locale;
                 Localization.Properties.Settings.Default.Save();

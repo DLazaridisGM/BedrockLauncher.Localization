@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BedrockLauncher.Localization.Language
 {
-    public static class AvaliableLanuages
+    public static class AvailableLanguages
     {
         public static List<string> GetAll()
         {
